@@ -20,7 +20,7 @@
 
 .projects article div {
   background: linear-gradient(to top, #33333392, #33333392),
-    url("../../../public/img/sampleproject.png") no-repeat center;
+    url("/img/sampleproject.png") no-repeat center;
   background-size: cover;
 
   display: flex;
@@ -29,7 +29,8 @@
 
   padding: 5rem 8rem;
 
-  max-width: 50%;
+  /* width: 50%; */
+  flex-grow: 1;
 }
 
 .projects article div h3 {

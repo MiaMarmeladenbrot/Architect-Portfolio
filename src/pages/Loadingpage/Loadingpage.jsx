@@ -15,7 +15,7 @@ const Loadingpage = () => {
 
   return (
     <section className="loadingpage">
-      <img src="../../../public/img/circle.png" alt="" />
+      <img src="/img/circle.png" alt="" />
       <h1>Welcome to our Site</h1>
     </section>
   );

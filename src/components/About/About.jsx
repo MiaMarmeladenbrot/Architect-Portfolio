@@ -22,7 +22,7 @@ const About = () => {
           remaining essentially unchanged.
         </p>
         <a className="button-white" href="#">
-          Read More <img src="../../../public/img/arrow.png" alt="" />
+          Read More <img src="/img/arrow.png" alt="" />
         </a>
       </article>
     </section>

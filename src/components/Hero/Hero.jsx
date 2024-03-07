@@ -11,10 +11,9 @@ const Hero = () => {
 
       <div>
         <Link className="button-white">
-          View Project <img src="../../../public/img/arrow.png" alt="" />
+          View Project <img src="/img/arrow.png" alt="" />
         </Link>
       </div>
-      {/* <img src="../../../public/img/hero.png" alt="" /> */}
     </section>
   );
 };

@@ -25,6 +25,7 @@ const Projects = () => {
           <img src="/img/project4.png" alt="" />
           <img src="/img/project5.png" alt="" />
         </article>
+
         <Link className="button-black">
           All Projects
           {theme ? (

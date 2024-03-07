@@ -9,19 +9,16 @@ const Gallery = () => {
         <h2>Photo</h2>
         <h3>Gallery</h3>
         <article>
-          <img src="../../../public/img/greybox.png" alt="grey Box" />
-          <img src="../../../public/img/lighthouse1.jpeg" alt="Arkade" />
-          <img src="../../../public/img/window.jpeg" alt="Window" />
-          <img
-            src="../../../public/img/lighthouse2.jpeg"
-            alt="Leuchtturm auf Insel"
-          />
-          <img src="../../../public/img/tempel.jpeg" alt="Tempel" />
-          <img src="../../../public/img/kirche.jpeg" alt="Arkade" />
-          <img src="../../../public/img/tower.jpeg" alt="Arkade" />
-          <img src="../../../public/img/arkade.jpeg" alt="Arkade" />
-          <img src="../../../public/img/markus.jpeg" alt="Arkade" />
-          <img src="../../../public/img/hochhaus.jpeg" alt="Arkade" />
+          <img src="/img/greybox.png" alt="grey Box" />
+          <img src="/img/lighthouse1.jpeg" alt="Arkade" />
+          <img src="/img/window.jpeg" alt="Window" />
+          <img src="/img/lighthouse2.jpeg" alt="Leuchtturm auf Insel" />
+          <img src="/img/tempel.jpeg" alt="Tempel" />
+          <img src="/img/kirche.jpeg" alt="Arkade" />
+          <img src="/img/tower.jpeg" alt="Arkade" />
+          <img src="/img/arkade.jpeg" alt="Arkade" />
+          <img src="/img/markus.jpeg" alt="Arkade" />
+          <img src="/img/hochhaus.jpeg" alt="Arkade" />
         </article>
       </section>
     </section>

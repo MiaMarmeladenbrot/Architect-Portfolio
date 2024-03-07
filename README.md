@@ -1,9 +1,22 @@
-# React + Vite
+# Architect Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+by [@MiaMarmeladenbrot](https://github.com/MiaMarmeladenbrot)
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Architect-Portfolio
+https://architect-portfolio-sage.vercel.app/
+
+## Screenshots Desktop Version
+
+### Home - Dark- and light-mode
+
+<img src="./public/img/screenshots/Home1.png" width="600px">
+
+<img src="./public/img/screenshots/Home2.png" width="600px">
+<img src="./public/img/screenshots/Home3.png" width="600px">
+<img src="./public/img/screenshots/Home4.png" width="600px">
+
+### Gallery - Darkmode
+
+<img src="./public/img/screenshots/Gallery1.png" width="600px">
+<img src="./public/img/screenshots/Gallery2.png" width="600px">

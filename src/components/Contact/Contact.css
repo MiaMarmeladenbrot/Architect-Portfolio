@@ -27,7 +27,7 @@ textarea {
   font-family: Roboto;
   padding: 1rem;
   border: none;
-  margin: 0.5rem 0;
+  margin-bottom: 1rem;
 }
 
 textarea {
@@ -36,6 +36,7 @@ textarea {
 
 button {
   border: none;
+  font-family: RobotoThin;
 }
 
 .contact img {
