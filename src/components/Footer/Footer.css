@@ -1,0 +1,51 @@
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer h5 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+footer a {
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}
+
+footer div p {
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+  padding: 5vw;
+  gap: 15vw;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.439);
+}
+
+footer article {
+  display: flex;
+  flex-direction: column;
+}
+
+footer article div {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+footer img {
+  object-fit: contain;
+}
+
+.copyright {
+  color: #c8c8c8;
+  text-align: center;
+  padding: 2.4rem;
+  font-size: 1.4rem;
+}

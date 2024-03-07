@@ -1,0 +1,21 @@
+.gallery {
+  margin: 2vw 5vw;
+}
+
+.gallery h3 {
+  margin-bottom: 6rem;
+}
+
+.gallery article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 3rem;
+}
+
+.gallery img {
+  width: 20rem;
+  object-fit: cover;
+  flex-basis: 18%;
+}
