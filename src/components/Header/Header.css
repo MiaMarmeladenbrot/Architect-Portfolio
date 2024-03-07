@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 2rem 5vw;
 }
 
 header article {
@@ -17,17 +17,17 @@ header a {
   padding: 0 10px;
 }
 
-header a:hover,
+header nav a:hover,
 .active {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
-/* --> das Gleiche noch für .active */
 
-.logo {
-  border: none;
+.dark header nav a:hover,
+.active {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
-/* --> warum verschwindet die Border beim ersten gelinkten svg nicht? */
 
 header div {
   cursor: pointer;

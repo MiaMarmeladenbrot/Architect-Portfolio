@@ -4,6 +4,7 @@
   gap: 10rem;
 
   margin: 0 7vw;
+  margin-bottom: 15rem;
 }
 
 .hero article {
@@ -26,9 +27,9 @@
   width: 60vw;
 }
 
-.hero a {
+/* .hero a {
   background-color: white;
   color: #333333;
   text-transform: uppercase;
   padding: 3rem 2rem;
-}
+} */

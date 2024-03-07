@@ -10,7 +10,7 @@ const Hero = () => {
       </article>
 
       <div>
-        <Link>
+        <Link className="button-white">
           View Project <img src="../../../public/img/arrow.png" alt="" />
         </Link>
       </div>

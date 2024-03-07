@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  gap: 3rem;
+
+  margin: 0 5vw;
+  margin-bottom: 12rem;
+}
+
+.about article {
+  width: 50%;
+}
+
+.about-img {
+  display: flex;
+  gap: 3rem;
+
+  align-items: center;
+}
+
+.about-img img {
+  width: 27rem;
+  height: 80%;
+  object-fit: contain;
+}
+
+.about-img div {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.about h2 {
+  margin-bottom: 3rem;
+}
+
+.about p {
+  margin-bottom: 5rem;
+}

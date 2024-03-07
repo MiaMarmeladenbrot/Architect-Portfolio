@@ -1,0 +1,58 @@
+.projects {
+  margin: 0 5vw;
+
+  margin-bottom: 12rem;
+}
+
+.projects h2 {
+  margin-bottom: 6rem;
+}
+
+.projects article {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  /* max-width: 80vw; */
+
+  margin-bottom: 3rem;
+}
+
+.projects article div {
+  background: linear-gradient(to top, #33333392, #33333392),
+    url("../../../public/img/sampleproject.png") no-repeat center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 5rem 8rem;
+
+  max-width: 50%;
+}
+
+.projects article div h3 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.projects article div a {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.projects .first {
+  width: 50%;
+}
+
+.projects img {
+  object-fit: cover;
+}
+
+.projects .button-black {
+  margin-left: 70vw;
+}

@@ -3,6 +3,16 @@
   src: url(../font/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: RobotoThin;
+  src: url(../font/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url(../font/Roboto-Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,13 +37,14 @@ h2 {
   font-size: clamp(4rem, 4vw, 5rem);
   color: #bdbdbd;
   font-weight: 300;
+  font-family: RobotoThin;
 }
 
 /* schwarz, fett */
 h3 {
   font-size: clamp(4rem, 4vw, 5rem);
   color: black;
-  font-weight: bold;
+  font-family: RobotoBold;
 }
 
 .dark h3 {
@@ -54,7 +65,8 @@ h6 {
 
 p,
 a {
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(1.6rem, 2vw, 2rem);
+  font-family: RobotoThin;
 }
 
 a {
@@ -67,10 +79,39 @@ a {
   color: #bdbdbd;
 }
 
-.dark a {
+.dark nav a {
   color: white;
 }
 
 .dark svg {
   fill: white;
+}
+
+.button-white {
+  background-color: white;
+  color: #333333;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.button-black {
+  color: white;
+  background-color: #333333;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 2.4rem 4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.dark .button-black {
+  background-color: white;
+  color: black;
 }

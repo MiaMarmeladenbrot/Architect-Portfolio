@@ -1,0 +1,43 @@
+.contact {
+  margin: 0 5vw;
+  margin-bottom: 12rem;
+}
+
+.contact article {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.contact h2 {
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+
+  width: 40rem;
+}
+
+.contact input,
+textarea {
+  background-color: #f3f3f3;
+  font-family: Roboto;
+  padding: 1rem;
+  border: none;
+  margin: 0.5rem 0;
+}
+
+textarea {
+  margin-bottom: 6rem;
+}
+
+button {
+  border: none;
+}
+
+.contact img {
+  object-fit: contain;
+}

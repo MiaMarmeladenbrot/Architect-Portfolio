@@ -1,0 +1,33 @@
+.main-focus {
+  margin: 0 5vw;
+  margin-bottom: 12rem;
+}
+
+.main-focus h2 {
+  margin-bottom: 6rem;
+}
+
+.main-focus article {
+  display: flex;
+  gap: 18rem;
+}
+
+.main-focus article div {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-focus p {
+  color: #333333;
+}
+
+.dark .main-focus p {
+  color: white;
+}
+
+.main-focus .number {
+  font-size: 20rem;
+  font-family: RobotoBold;
+  color: #f2f2f2;
+}
