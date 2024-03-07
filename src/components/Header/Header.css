@@ -18,7 +18,7 @@ header a {
 }
 
 header nav a:hover,
-.active {
+header nav .active {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
