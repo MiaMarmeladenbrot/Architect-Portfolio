@@ -9,9 +9,9 @@ const Gallery = () => {
         <h2>Photo</h2>
         <h3>Gallery</h3>
         <article>
-          <img src="/img/greybox.png" alt="grey Box" />
-          <img src="/img/lighthouse1.jpeg" alt="Arkade" />
-          <img src="/img/window.jpeg" alt="Window" />
+          <img src="../../../public/img/greybox.png" alt="grey Box" />
+          <img src="../img/lighthouse1.jpeg" alt="Arkade" />
+          <img src="img/window.jpeg" alt="Window" />
           <img src="/img/lighthouse2.jpeg" alt="Leuchtturm auf Insel" />
           <img src="/img/tempel.jpeg" alt="Tempel" />
           <img src="/img/kirche.jpeg" alt="Arkade" />
